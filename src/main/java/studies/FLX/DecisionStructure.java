@@ -9,7 +9,7 @@ public class DecisionStructure {
         //evenNumber();
         //equalsString();
         //initString();
-        date();
+        //date();
     }
 
     private static void evenNumber() {
