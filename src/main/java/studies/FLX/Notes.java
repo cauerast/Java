@@ -130,7 +130,16 @@ public class Notes {
     }
 
     private static void casting() {
+        double resultado = 0.0;
+        int resultadoInt = (int) resultado;
 
+        int meuInt = 10;
+        double meuDouble = meuInt;
+
+        String meuString = "10";
+        int meuInt2 = Integer.parseInt(meuString);
+
+        String minhaStirng = String.valueOf(meuInt2);
     }
 
 }
