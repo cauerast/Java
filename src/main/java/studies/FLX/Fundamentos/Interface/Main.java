@@ -8,5 +8,18 @@ public class Main {
 
         SerVivo meuSerVivo = new Humano();
         meuSerVivo.respirar();
+
+
+        //Error
+
+        Carro myErrorCar = null;
+
+        try{
+            myErrorCar.acelerar();
+
+        } catch (NullPointerException exception){
+            System.out.println("vender carro");
+        }
+
     }
 }

@@ -16,4 +16,9 @@ public class Bmw implements Carro {
     public void parar() {
 
     }
+    final int limiteDeVelocidade = 280;
+    // final int = (const) | valor que nao vai mudar.
+
+
+
 }
