@@ -1,6 +1,6 @@
 package studies.FLX.Main;
 
-public class OverloadMethods {
+public class VarOverloadMethods {
 
     // overload methods = methods that share the same name,
     //                   but different parameters
