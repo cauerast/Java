@@ -1,0 +1,26 @@
+package studies.FLX.Main.ObjectOrientedPrograming.ToStringMethod;
+
+import java.sql.SQLOutput;
+
+public class Main {
+    public static void main(String[] args) {
+        // .toString() = Method inherited from the object class/
+        // Used to return a string representation of an object.
+        // By default, it returns a hash code as a unique identifier.
+        // It can be overridden to provide meaningful details.
+
+        Car car1 = new Car("Ford", "Mustang", 2025, "Red");
+        Car car2 = new Car("Chevrolet", "Corvette", 2026, "Blue");
+
+        System.out.println(car1);
+        System.out.println(car2);
+        // that print a hash code, but now we override the hash code with
+        /*
+        @Override
+        public String toString(){
+            return this.color + " " + this.year + " " + this.make + " " + this.model;
+        }
+        */
+        // in Car Package
+    }
+}
