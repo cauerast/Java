@@ -44,7 +44,5 @@ public class Main {
         System.out.println(Character.isLetter(letter));
         System.out.println(Character.isUpperCase(letter));
 
-
-
     }
 }
