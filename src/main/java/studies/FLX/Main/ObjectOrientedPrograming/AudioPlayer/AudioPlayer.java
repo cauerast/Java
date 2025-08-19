@@ -52,7 +52,7 @@ public class AudioPlayer {
             System.out.println("Something went wrong");
         }
         finally {
-            System.out.println("Bye!");
+            System.out.println("eu te amo amora minha tudo princesa!");
         }
 
 
