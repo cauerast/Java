@@ -1,4 +1,4 @@
-package studies.FLX.Fundamentos;
+package studies.FLX.Fundamentos.Intermediario;
 
 public class OOP {
     public static void main(String[] args) {

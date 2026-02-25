@@ -1,4 +1,4 @@
-package studies.FLX.Intermediario.Carro;
+package studies.FLX.Fundamentos.Intermediario;
 
 public class Gol extends CarroAula {
 
